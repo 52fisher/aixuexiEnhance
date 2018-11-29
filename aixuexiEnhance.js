@@ -6,8 +6,8 @@
 // @author       fisher
 // @include      https://bk.aixuexi.com/*
 // @include      https://diy-courseware.aixuexi.com/*
-// @updateURL    https://gitee.com/fisher52/TiebaSuperBawu/raw/master/superBawu.meta.js
-// @downloadURL  https://gitee.com/fisher52/TiebaSuperBawu/raw/master/superBawu.user.js
+// @updateURL    https://raw.githubusercontent.com/52fisher/aixuexiEnhance/master/aixuexiEnhance.user.js
+// @downloadURL  https://raw.githubusercontent.com/52fisher/aixuexiEnhance/master/aixuexiEnhance.user.js
 // @grant        none
 // ==/UserScript==
 
