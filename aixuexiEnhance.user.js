@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         爱学习功能增强
 // @namespace    http://52fisher.cn
-// @version      0.1
+// @version      0.2
 // @description  修复爱学习翻页功能错误以及隐藏批注
 // @author       fisher
 // @include      https://bk.aixuexi.com/*
