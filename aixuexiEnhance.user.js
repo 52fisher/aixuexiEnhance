@@ -102,7 +102,7 @@ axx.menu = function() {
         }
         //打印时自动隐藏菜单
         if (even.ctrlKey && event.keyCode == 80) {
-            $(list_mods.menu.node).hide();
+            $(list_mods.menu.node).hide()
         }
     });
 }
