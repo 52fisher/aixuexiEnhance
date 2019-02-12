@@ -100,7 +100,7 @@ axx.menu = function() {
         if (event.keyCode == 71) {
             $(list_mods.menu.node).toggle()
         }
-        //打印时自动隐藏菜单
+        //打印自动隐藏菜单
         if (even.ctrlKey && event.keyCode == 80) {
             $(list_mods.menu.node).hide()
         }
