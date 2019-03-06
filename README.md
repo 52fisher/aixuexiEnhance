@@ -7,5 +7,9 @@
 - 自动页面排版，一键排版
 - 使用g键控制菜单的显示
 
+## 安装
+首先安装GreaseMonkey或者暴力猴等扩展（插件）
+
+[aixuexiEnhance](https://github.com/52fisher/aixuexiEnhance/raw/master/aixuexiEnhance.user.js)
 
 **注意：打印时必须关闭菜单，否则打印出来的文件有菜单按钮**
