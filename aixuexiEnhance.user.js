@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         爱学习功能增强
 // @namespace    http://52fisher.cn
-// @version      1.3
+// @version      1.4
 // @description  修复爱学习翻页功能错误以及隐藏批注
 // @author       fisher
 // @include      https://bk.aixuexi.com/*
@@ -106,7 +106,7 @@ axx.menu = function() {
             $(list_mods.menu.node).toggle()
         }
         //打印自动隐藏菜单
-        if (even.ctrlKey && event.keyCode == 80) {
+        if (event.ctrlKey && event.keyCode == 80) {
             $(list_mods.menu.node).hide()
         }
     });
