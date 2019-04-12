@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         爱学习功能增强
 // @namespace    http://52fisher.cn
-// @version      1.4
+// @version      1.5
 // @description  修复爱学习翻页功能错误以及隐藏批注
 // @author       fisher
 // @include      https://bk.aixuexi.com/*
@@ -52,6 +52,7 @@ axx.quickformat = function() {
         $(this).html($(this).html().replace('答案', '<span style="display:none">答案</span>'));
     })
     $('.question-index').css({ "maxWidth": "120px", "marginRight": "5px" });
+    $('.question-option-item').css({"display": "inline-block","min-width": "15%","margin-right": "20px"});
 }
 axx.menu = function() {
     //讲义页面增强
