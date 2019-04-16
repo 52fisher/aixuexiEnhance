@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         爱学习功能增强
 // @namespace    http://52fisher.cn
-// @version      1.6
+// @version      1.7
 // @description  修复爱学习翻页功能错误以及隐藏批注
 // @author       fisher
 // @include      https://bk.aixuexi.com/*
@@ -10,7 +10,7 @@
 // @downloadURL  https://raw.githubusercontent.com/52fisher/aixuexiEnhance/master/aixuexiEnhance.user.js
 // @grant        GM_addStyle
 // ==/UserScript==
-GM_addStyle('*{font-family:"Times New Roman";} .MJXp-math,.MJXp-math span{line-height:14px;}/*修复分式/分数距离行高问题*/ .noborder{border: none!important;}.controller-pannel{background: #e03636;font-size: 20px;color: #eee;width: 50px;height: 50px;border-radius: 50px;text-align: center;vertical-align: middle;line-height: 50px;position: fixed;right: 35px;z-index: 999;bottom: 200px;cursor: default;}.controller-pannel:hover{background:#E55;}ul.controller-items{display: none;position: fixed;right: 30px;z-index: 999;bottom: 260px;}ul.controller-items>li{color: #eee;font-size: 12px;width: 50px;padding: 4px;background: #0b6e48;margin: 4px;cursor: default;}ul.controller-items>li:hover{background:#199475;}');
+GM_addStyle('*{font-family:"Times New Roman";} .MJXp-math,.MJXp-math span{line-height:14px;}/*修复分式/分数距离行高问题*/ .question-answer>div,.question-answer .axx_piece {display:inline-block;min-width:40px;} .noborder{border: none!important;}.controller-pannel{background: #e03636;font-size: 20px;color: #eee;width: 50px;height: 50px;border-radius: 50px;text-align: center;vertical-align: middle;line-height: 50px;position: fixed;right: 35px;z-index: 999;bottom: 200px;cursor: default;}.controller-pannel:hover{background:#E55;}ul.controller-items{display: none;position: fixed;right: 30px;z-index: 999;bottom: 260px;}ul.controller-items>li{color: #eee;font-size: 12px;width: 50px;padding: 4px;background: #0b6e48;margin: 4px;cursor: default;}ul.controller-items>li:hover{background:#199475;}');
 var axx = {};
 axx.fixErrHref = function() {
     //检测DOM改变事件，修正无良程序员的jvascript尴尬事件。
